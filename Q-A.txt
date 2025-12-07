@@ -1,0 +1,21 @@
+Ques- Describe a time when you implemented security controls—such as WAF, API Gateway, or vulnerability management—across a microservice-based application. How did you ensure compliance with frameworks like NIST, ISO 27001, HIPAA, or GDPR?
+
+Ans- In my previous role, I implemented multiple security controls across a microservices-based application deployed on AWS EKS. One of my project I exposed microservices through an AWS API Gateway layer, which allowed us to control authentication and rate limiting and enabled AWS WAF managed security rules. Inside the CI/CD pipeline with Jenkins , I integrated Trivy, SonarQube, and OWASP scanning. This ensured that every container image and code commit was checked for vulnerabilities before deployment.
+OR
+
+I implemented AWS WAF + API Gateway + CI/CD vulnerability scanning to secure microservices on EKS. While I’m not deeply specialized in frameworks like NIST or ISO 27001, I followed their core principles—least privilege, encryption, access controls, and auditability. This ensured our architecture met strong security standards without slowing development.”
+
+
+ques- Tell me about a complex production issue you’ve diagnosed using monitoring tools like Datadog, Grafana, or Prometheus. What was your troubleshooting process, and what long-term improvements did you make afterward?
+
+Ans- One of the most complex production issues I handled involved sudden latency spikes and intermittent failures in a microservices-based application running on AWS EKS. We were using Prometheus for metrics collection and Grafana for dashboards, which helped me quickly pinpoint the root cause.
+
+
+ques- Have you ever built or deployed an AI-driven tool or bot for operational or security purposes? Describe the problem it solved, how you integrated it into existing workflows, and the measurable impact it had.
+
+ans- I haven’t built an AI model myself, but I integrated an AI-powered anomaly-detection tool into our monitoring pipeline. It analyzed logs and metrics across microservices, identified unusual patterns, and sent real-time alerts.
+
+
+ques- Walk me through a recent project where you designed or significantly improved a multi-cloud infrastructure using Infrastructure as Code. How did you approach automation, security, and scalability?
+
+Ans- In my recent role at Flytech Solution, I did a multi-cloud-architecture using Infrastructure as Code tools like Terraform and Ansible. The goal was to improve availability and standardize deployments across environments. I used Terraform to provision the entire infrastructure and integrated the pipelines with Jenkins and GitHub Actions. I integrated Trivy, SonarQube, and OWASP scans inside Jenkins pipelines and this significantly strengthened security.
